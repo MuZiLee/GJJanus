@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'GoogleWebRTC'
   s.dependency 'SocketRocket'
-  s.dependency 'AFNetworking', '~> 3.0'
+  s.dependency 'AFNetworking'
   s.dependency 'GoogleWebRTC'
 
 end
