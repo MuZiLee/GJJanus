@@ -19,7 +19,9 @@ Pod::Spec.new do |s|
   s.subspec 'GJCategory' do |ss|
     ss.source_files        = 'GJCategory/**/*.{h,m}'
     ss.public_header_files = 'GJCategory/**/*.h'
-    ss.vendored_libraries  = 'frameworks/WebRTC.framework'
+  end
+  s.subspec 'WebRTC' do |ss|
+    ss.source_files        = 'frameworks/*'
   end
   
   
