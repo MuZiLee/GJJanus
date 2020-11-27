@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   s.subspec 'GJCategory' do |ss|
     ss.source_files        = 'GJCategory/**/*.{h,m}'
     ss.public_header_files = 'GJCategory/**/*.h'
+    ss.vendored_libraries  = 'frameworks/WebRTC.framework'
   end
   
   
@@ -29,6 +30,6 @@ Pod::Spec.new do |s|
   
   s.frameworks   = ['UIKit', 'OpenGLES', 'CoreMedia', 'CoreVideo', 'QuartzCore', 'AVFoundation']
 
-  s.dependency 'GoogleWebRTC', '1.1.31999'
+  
 
 end
