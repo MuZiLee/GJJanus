@@ -29,6 +29,6 @@ Pod::Spec.new do |s|
   
   s.frameworks   = ['UIKit', 'OpenGLES', 'CoreMedia', 'CoreVideo', 'QuartzCore', 'AVFoundation']
 
-  # s.dependency 'GPUImage', '0.1.5'
+  s.dependency 'GoogleWebRTC', '1.1.31999'
 
 end
